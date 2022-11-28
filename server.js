@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const db = require('./DB')
 const app = express();
-const port = 4000;
+const port = 6000;
 
 const clothesRouter = require('./routes/clothes-route');
 const shoesRouter = require('./routes/shoes-route');
